@@ -2,7 +2,7 @@
 # MailHog Dockerfile
 #
 
-FROM alpine:3.7
+FROM alpine:3.12.2
 
 # Install ca-certificates, required for the "release message" feature:
 RUN apk --no-cache add \
